@@ -1,0 +1,10 @@
+version: '3'
+services:
+  server:
+    image: leocavalcante/dwoole:dev
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
+    environment:
+      ENTRY_POINT_FILE: /app/bin/server.php

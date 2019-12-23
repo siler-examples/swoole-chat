@@ -1,0 +1,18 @@
+{
+  "name": "siler-examples/swoole-chat",
+  "description": "A web chat example using Swoole and WebSockets.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leocavalcante",
+      "email": "lc@leocavalcante.com"
+    }
+  ],
+  "require": {
+    "leocavalcante/siler": "dev-master"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "^4.4"
+  }
+}
